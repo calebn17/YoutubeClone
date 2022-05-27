@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF298D1428413820005C5834 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF298D1328413820005C5834 /* AppDelegate.swift */; };
+		AF298D1628413820005C5834 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF298D1528413820005C5834 /* SceneDelegate.swift */; };
+		AF298D1828413820005C5834 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF298D1728413820005C5834 /* TabBarViewController.swift */; };
+		AF298D1E28413820005C5834 /* YoutubeClone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF298D1C28413820005C5834 /* YoutubeClone.xcdatamodeld */; };
+		AF298D2028413822005C5834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF298D1F28413822005C5834 /* Assets.xcassets */; };
+		AF298D2328413822005C5834 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF298D2128413822005C5834 /* LaunchScreen.storyboard */; };
+		AF298D2D28413A08005C5834 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF298D2C28413A08005C5834 /* HomeViewController.swift */; };
+		AF298D2F28413A29005C5834 /* ShortsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF298D2E28413A29005C5834 /* ShortsViewController.swift */; };
+		AF298D3128413A65005C5834 /* SubscriptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF298D3028413A65005C5834 /* SubscriptionsViewController.swift */; };
+		AF298D3328413A75005C5834 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF298D3228413A75005C5834 /* LibraryViewController.swift */; };
+		AF298D3B284147A2005C5834 /* VideoCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF298D3A284147A2005C5834 /* VideoCardTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF298D1028413820005C5834 /* YoutubeClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoutubeClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF298D1328413820005C5834 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF298D1528413820005C5834 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AF298D1728413820005C5834 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		AF298D1D28413820005C5834 /* YoutubeClone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YoutubeClone.xcdatamodel; sourceTree = "<group>"; };
+		AF298D1F28413822005C5834 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF298D2228413822005C5834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF298D2428413822005C5834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF298D2C28413A08005C5834 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AF298D2E28413A29005C5834 /* ShortsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortsViewController.swift; sourceTree = "<group>"; };
+		AF298D3028413A65005C5834 /* SubscriptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionsViewController.swift; sourceTree = "<group>"; };
+		AF298D3228413A75005C5834 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		AF298D3A284147A2005C5834 /* VideoCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCardTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF298D0D28413820005C5834 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF298D0728413820005C5834 = {
+			isa = PBXGroup;
+			children = (
+				AF298D1228413820005C5834 /* YoutubeClone */,
+				AF298D1128413820005C5834 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF298D1128413820005C5834 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF298D1028413820005C5834 /* YoutubeClone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF298D1228413820005C5834 /* YoutubeClone */ = {
+			isa = PBXGroup;
+			children = (
+				AF298D3528414733005C5834 /* Views */,
+				AF298D342841471C005C5834 /* Resources */,
+				AF298D2A284139DF005C5834 /* Controllers */,
+				AF298D1C28413820005C5834 /* YoutubeClone.xcdatamodeld */,
+				AF298D2128413822005C5834 /* LaunchScreen.storyboard */,
+				AF298D2428413822005C5834 /* Info.plist */,
+				AF298D1528413820005C5834 /* SceneDelegate.swift */,
+				AF298D1328413820005C5834 /* AppDelegate.swift */,
+				AF298D1F28413822005C5834 /* Assets.xcassets */,
+			);
+			path = YoutubeClone;
+			sourceTree = "<group>";
+		};
+		AF298D2A284139DF005C5834 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AF298D2B284139EB005C5834 /* Core */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AF298D2B284139EB005C5834 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AF298D1728413820005C5834 /* TabBarViewController.swift */,
+				AF298D2C28413A08005C5834 /* HomeViewController.swift */,
+				AF298D2E28413A29005C5834 /* ShortsViewController.swift */,
+				AF298D3028413A65005C5834 /* SubscriptionsViewController.swift */,
+				AF298D3228413A75005C5834 /* LibraryViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		AF298D342841471C005C5834 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AF298D3528414733005C5834 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF298D3728414742005C5834 /* Headers */,
+				AF298D362841473A005C5834 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AF298D362841473A005C5834 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AF298D3A284147A2005C5834 /* VideoCardTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		AF298D3728414742005C5834 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF298D0F28413820005C5834 /* YoutubeClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF298D2728413822005C5834 /* Build configuration list for PBXNativeTarget "YoutubeClone" */;
+			buildPhases = (
+				AF298D0C28413820005C5834 /* Sources */,
+				AF298D0D28413820005C5834 /* Frameworks */,
+				AF298D0E28413820005C5834 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoutubeClone;
+			productName = YoutubeClone;
+			productReference = AF298D1028413820005C5834 /* YoutubeClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF298D0828413820005C5834 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					AF298D0F28413820005C5834 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AF298D0B28413820005C5834 /* Build configuration list for PBXProject "YoutubeClone" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF298D0728413820005C5834;
+			productRefGroup = AF298D1128413820005C5834 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF298D0F28413820005C5834 /* YoutubeClone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF298D0E28413820005C5834 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF298D2328413822005C5834 /* LaunchScreen.storyboard in Resources */,
+				AF298D2028413822005C5834 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF298D0C28413820005C5834 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF298D2D28413A08005C5834 /* HomeViewController.swift in Sources */,
+				AF298D1828413820005C5834 /* TabBarViewController.swift in Sources */,
+				AF298D3328413A75005C5834 /* LibraryViewController.swift in Sources */,
+				AF298D1428413820005C5834 /* AppDelegate.swift in Sources */,
+				AF298D2F28413A29005C5834 /* ShortsViewController.swift in Sources */,
+				AF298D1628413820005C5834 /* SceneDelegate.swift in Sources */,
+				AF298D1E28413820005C5834 /* YoutubeClone.xcdatamodeld in Sources */,
+				AF298D3128413A65005C5834 /* SubscriptionsViewController.swift in Sources */,
+				AF298D3B284147A2005C5834 /* VideoCardTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF298D2128413822005C5834 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF298D2228413822005C5834 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF298D2528413822005C5834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF298D2628413822005C5834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF298D2828413822005C5834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RRG4UPX9CR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YoutubeClone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.calebngai.YoutubeClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF298D2928413822005C5834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RRG4UPX9CR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YoutubeClone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.calebngai.YoutubeClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF298D0B28413820005C5834 /* Build configuration list for PBXProject "YoutubeClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF298D2528413822005C5834 /* Debug */,
+				AF298D2628413822005C5834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF298D2728413822005C5834 /* Build configuration list for PBXNativeTarget "YoutubeClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF298D2828413822005C5834 /* Debug */,
+				AF298D2928413822005C5834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AF298D1C28413820005C5834 /* YoutubeClone.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AF298D1D28413820005C5834 /* YoutubeClone.xcdatamodel */,
+			);
+			currentVersion = AF298D1D28413820005C5834 /* YoutubeClone.xcdatamodel */;
+			path = YoutubeClone.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AF298D0828413820005C5834 /* Project object */;
+}
